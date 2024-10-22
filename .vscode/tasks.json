@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/StackSpotAI.sln",
+                "${workspaceFolder}/StackspotAI.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/StackSpotAI.sln",
+                "${workspaceFolder}/StackspotAI.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/StackSpotAI.sln"
+                "${workspaceFolder}/StackspotAI.sln"
             ],
             "problemMatcher": "$msCompile"
         }

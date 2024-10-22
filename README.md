@@ -5,12 +5,12 @@ Aqui está o arquivo `README.md` em inglês para o repositório **stackspotai.ne
 
 [![.NET Version](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-`stackspotai.net` is a .NET library designed to simplify interactions with the [StackSpot AI API](https://ai.stackspot.com/docs/). It provides developers with a clean and easy-to-use interface for managing Personal Access Tokens (PAT), handling knowledge sources, and executing remote quick commands.
+`stackspotai.net` is a .NET library designed to simplify interactions with the [Stackspot AI API](https://ai.stackspot.com/docs/). It provides developers with a clean and easy-to-use interface for managing Personal Access Tokens (PAT), handling knowledge sources, and executing remote quick commands.
 
 ## Features
 
 - **Token Management**: Generate and manage Personal Access Tokens (PAT) for API authentication.
-- **Knowledge Source Management**: Create, update, and retrieve knowledge sources using StackSpot AI's knowledge management API.
+- **Knowledge Source Management**: Create, update, and retrieve knowledge sources using Stackspot AI's knowledge management API.
 - **Remote Quick Commands**: Execute and monitor remote quick commands via the API.
 
 ## Installation
@@ -18,17 +18,17 @@ Aqui está o arquivo `README.md` em inglês para o repositório **stackspotai.ne
 To use this library in your .NET project, add the package via NuGet:
 
 ```bash
-dotnet add package StackSpotAI
+dotnet add package StackspotAI
 ```
 
 ## Usage
 
-### 1. Initializing the StackSpot AI Client
+### 1. Initializing the Stackspot AI Client
 
-To start using the library, initialize the `StackSpotAIClient` with your client ID and client secret:
+To start using the library, initialize the `StackspotAIClient` with your client ID and client secret:
 
 ```csharp
-var client = new StackSpotAIClient("your_client_id", "your_client_secret");
+var client = new StackspotAIClient("your_client_id", "your_client_secret");
 ```
 
 ### 2. Token Management
@@ -107,7 +107,7 @@ Console.WriteLine($"Quick Command Status: {status.Status}");
 ## Requirements
 
 - **.NET 8.0** or higher
-- A valid [StackSpot AI API](https://ai.stackspot.com/docs/) account to get `client_id` and `client_secret`.
+- A valid [Stackspot AI API](https://ai.stackspot.com/docs/) account to get `client_id` and `client_secret`.
 
 ## Contributing
 
@@ -125,7 +125,7 @@ You can find the source code for this library at: [https://github.com/felipepime
 ### Explicação
 
 - O `README.md` inclui uma introdução sobre o que a biblioteca faz, as principais funcionalidades, e exemplos de como utilizá-la.
-- Também há uma seção sobre como instalar a biblioteca e links para a documentação do **StackSpot AI**.
+- Também há uma seção sobre como instalar a biblioteca e links para a documentação do **Stackspot AI**.
 - Foram adicionados exemplos de código para gerar tokens, gerenciar knowledge sources, e executar quick commands.
 - A estrutura é compatível com repositórios modernos, incluindo um link para o repositório do GitHub.
 

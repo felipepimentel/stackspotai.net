@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/StackSpotAITests/bin/Debug/net8.0/StackSpotAITests.dll",
+            "program": "${workspaceFolder}/StackspotAITests/bin/Debug/net8.0/StackspotAITests.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/StackSpotAITests",
+            "cwd": "${workspaceFolder}/StackspotAITests",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
